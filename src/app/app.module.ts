@@ -4,17 +4,17 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
-import { AboutComponent } from './components/about/about.component';
 import { CodeProyectsComponent } from './components/code-proyects/code-proyects.component';
 import { DesignProyectsComponent } from './components/design-proyects/design-proyects.component';
+import { WelcomeComponent } from './components/welcome/welcome.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    AboutComponent,
     CodeProyectsComponent,
-    DesignProyectsComponent
+    DesignProyectsComponent,
+    WelcomeComponent
   ],
   imports: [
     BrowserModule,
