@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./welcome.component.scss']
 })
 export class WelcomeComponent {
-
+  openLinkInNewTab(link: string) {
+    window.open(link, '_blank');
+  }
 }
