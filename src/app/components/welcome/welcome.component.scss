@@ -1,5 +1,6 @@
+
 .proyects{
-    background-color:#c5e6e4;
+    background-color:#d0f5f2;
     font-size: 17px;
     font-weight: bold;
     border-radius: 20px ;
@@ -10,4 +11,13 @@
     border: 1px solid;
     align-items: center;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+img{
+    max-width: 15vw;
+    max-height: 20vh; 
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+section{
+    overflow: scroll;
+    height:80vh;
 }

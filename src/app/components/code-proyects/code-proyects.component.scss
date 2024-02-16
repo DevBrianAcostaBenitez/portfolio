@@ -1,0 +1,28 @@
+
+.proyect{
+    background-color: #d0f5f2;
+    border: 1px solid;
+    align-items: center;
+   
+    border-radius: 25px ;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    .imgBtn{
+        display:flex;
+        .btnColumn{
+            display:block
+        }
+    }
+    img{
+        max-width: 15vw;
+        max-height: 20vh; 
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+    button{
+        font-weight:550;
+        align-items: center;
+    }
+}
+section{
+    overflow: scroll;
+    height:80vh;
+}

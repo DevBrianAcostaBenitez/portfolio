@@ -1,6 +1,6 @@
 
 .proyect{
-    background-color: #c5e6e4;
+    background-color: #d0f5f2;
     border: 1px solid;
     align-items: center;
    
@@ -21,4 +21,9 @@
         font-weight:550;
         align-items: center;
     }
+}
+
+section{
+    overflow: scroll;
+    height:80vh;
 }
